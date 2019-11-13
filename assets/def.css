@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("noisy-texture-100x100-o5-d20-c-222222-t0.png");
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #ccc;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.button {
+    border: 1px solid #444;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a.button:hover {
+    background-color: #aaa;
+
+}
+
+#scanresult {
+    margin: 10px;
+
+}
+/*
+#scanresult.active {
+    color: green;
+}
+
+#scanresult.nonactive {
+    color: red;
+}
+*/
+form input[type=text] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #fff;
+}
+
+form input[type=submit] {
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#tooppbar {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top, #555 0%, #333 100%) repeat scroll 0 0;
+    border-bottom: 1px solid #111;
+
+}
+
+#bbar {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top, #555 0%, #333 100%) repeat scroll 0 0;
+    border-top: 1px solid #111;
+    padding: 20px;
+
+}
+
+.led {
+
+      display: inline-block;
+}
+
+.led.green {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: #000 0px 0px 1px 0px, #6eb300 -0.8px -1.6px 4.8px 2px inset, 0px 0px 4px 0px #6eb300;
+}
+
+.led.red {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: #000 0px 0px 1px 0px, #b30600 -0.8px -1.6px 4.8px 2px inset, 0px 0px 4px 0px #b30600;
+}
+
+.led.gray {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: #000 0px 0px 1px 0px, rgba(40, 40, 40, 0.75) -0.8px -1.6px 4.8px 2px inset, 0px 0px 4px 0px rgba(40, 40, 40, 0.75);
+}
+
+form input[type="submit"] {
+    border: 1px solid #444;
+    cursor: pointer;
+
+}
+
+
+.select {
+    text-align: center;
+    padding: 30px 6pc 21px 87px;
+    font-size: 30px;
+    color:white;
+    background-color: grey;
+    margin: 10px;
+    margin-top: 10px;
+}
