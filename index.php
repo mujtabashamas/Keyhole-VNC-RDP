@@ -35,19 +35,6 @@
         
     </div>
     <div style="margin: 50px"></div>
-
-    <div id="bbar">
-        <table width="100%">
-            <tr>
-                <a style="text-decoration: none; color:white;margin-left:45%" href="https://cyberse.de/impressum/">Imprint</a>
-                <a style="text-decoration: none; color:white;margin-left:2%" href="https://cyberse.de/datenschutzerklaerung/">Data Protection</a>
-                <td style="text-align: center;">
-                Powered by Threehunt © 2019 | a cyberse.de and a blacksudo.co project
-                </td>
-            </tr>
-        </table>
-
-    </div>
 </body>
 
 </html>
