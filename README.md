@@ -7,6 +7,7 @@ A web service that detects VNC/RDP Servers from shodan using PHP and fetches dat
 ```
 Php/Mysql
 Python 3 for the script
+shodan_api_key replace with your api key | fetch.py
 pip install shodan mysql
 ```
 
