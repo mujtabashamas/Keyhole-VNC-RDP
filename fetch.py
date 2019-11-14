@@ -8,7 +8,7 @@ import sys
 import mysql.connector
 import time
 
-api_key = "p8Lak8Hy2Ngqwof2grB0vuT4TYJuquFI"
+api_key = shodan_api_key
 api = shodan.Shodan(api_key)
 
 def shodanSearch(pageNo, query, dbTable):
